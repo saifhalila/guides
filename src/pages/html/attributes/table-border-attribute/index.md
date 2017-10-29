@@ -3,13 +3,36 @@ title: Table Border Attribute
 ---
 ## Table Border Attribute
 
-This is a stub. <a href='https://github.com/freecodecamp/guides/tree/master/src/pages/html/attributes/table-border-attribute/index.md' target='_blank' rel='nofollow'>Help our community expand it</a>.
+The border attribute specifies if a border should be displayed around the table cells or not.
 
-<a href='https://github.com/freecodecamp/guides/blob/master/README.md' target='_blank' rel='nofollow'>This quick style guide will help ensure your pull request gets accepted</a>.
+#### Examples:
 
-<!-- The article goes here, in GitHub-flavored Markdown. Feel free to add YouTube videos, images, and CodePen/JSBin embeds  -->
+HTML table with borders around the table cells:
+
+```html
+<table border="1">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+```
+The <table border> attribute is supported by all browsers.
+  
+  
+  Attribute Values
+  - "0"	No borders around the table cells
+  - "1"	Add borders around the table cells
+  
 
 #### More Information:
-<!-- Please add any articles you think might be helpful to read before writing the article -->
 
-
+Table Border Attribute: <a href="https://www.w3schools.com/tags/att_table_border.asp" target="_blank">w3schools</a>
